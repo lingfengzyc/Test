@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang=eng>
+    <head>
+        <meta charset="utf 8">
+        <meta name= "viewpoint" content="width=device-width, initial-scale=1">
+        <title>gallery</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div class="plate">
+        <div class="number">This is Home.</div>
+      </div>
+      <script>
+        function myFunction(scrollTo) {
+        var button = document.getElementById("home1");
+        location.href = scrollTo;
+        }
+      </script>  
+      <div class="navbar">
+        <a href="why.html">Why?</a>
+        <a href="houses.html">Houses</a>
+        <a href="gallery.html" class="right">Gallery</a>
+        <a href="index.html">Main Page</a>
+      </div>
+      <div class="row2">
+        <div class="column">
+          <button type="button" id= "home1" onclick="myFunction('barbie.png#Barbie')" class= "button">
+          <img src="barbie.png">
+          </button>
+        </div>
+        <div class="column">
+          <button type="button" id= "home1" onclick="myFunction('jungle.png#Jungle')" class= "button">
+            <img src="jungle.png">
+          </button>
+        </div>
+        <div class="column">
+          <button type="button" id= "home1" onclick="myFunction('rabbithole.png#RabbitHole')" class= "button">
+            <img src="rabbithole.png">
+          </button>
+        </div>
+        <div class="column">
+          <button type="button" id= "home1" onclick="myFunction('tlc.jpeg#TLC')" class= "button">
+            <img src="tlc.jpeg">
+          </button>
+        </div>
+      </div>
+    </body>
+    
+</html>
